@@ -13,5 +13,3 @@ targets CUDA graph optimisation and per-kernel launch latency, neither of which 
 The JIT compilation cost during epoch 1 was not amortised over the 5-epoch run, making the
 compiled run measurably slower overall. Accuracy remained virtually identical across both runs,
 confirming that `torch.compile()` is a pure runtime optimisation with no effect on model math.
-
-![img.png](assets/img.png)
